@@ -172,7 +172,7 @@
 					}
 				  }
 				
-					document.querySelector('#type-a-message').focus();
+					document.querySelector('textarea').focus();
 					sendResponse(true);
 					return;
 				}
@@ -225,15 +225,9 @@
 
 
 
-	setInterval(function(){
-		// try {
-		// 	channelName = document.querySelector(".main-content h3").childNodes[0].textContent;
-		// } catch(e){
-		// 	channelName = window.location.href.split("/").pop();
-		// }
-		
+	setInterval(function(){		
 		try {
-			document.querySelectorAll('.messages').forEach(container=>{ // more than one #message .. tsk ;)
+			document.querySelectorAll('div.messages').forEach(container=>{
 				if (!container.marked){
 					container.marked=true;
 

@@ -118,6 +118,7 @@
 		"https://chzzk.naver.com/live/*/chat",
 		"https://riverside.fm/studio/*",
 		"https://estrim.com/publications/view/*",
+		"https://*.edudip.com/webinar/*",
 		"file:///C:/Users/steve/Code/social_stream/wss/*",
 		"storage",
 		"debugger"
@@ -126,6 +127,10 @@
         "default_popup": "popup.html"
   },
   "content_scripts": [
+	  {
+		  "js": ["edudip.js"],
+		  "matches": ["https://*.edudip.com/webinar/*"]
+	  },
 	  {
 		  "js": ["chzzk.js"],
 		  "matches": ["https://chzzk.naver.com/live/*/chat"]
