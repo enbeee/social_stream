@@ -634,6 +634,10 @@
     {
       "js": [ "./sources/vklive.js" ],
       "matches": [ "https://vk.com/*" ]
+    },
+    {
+      "js": [ "./sources/edudip.js" ],
+      "matches": [ "https://*.edudip.com/webinar/*" ]
     }
   ],
   "options_ui": {
