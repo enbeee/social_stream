@@ -154,6 +154,7 @@
     "https://vk.com/*",
     "https://wave.video/*",
 	"https://www.sooplive.com/chat/*",
+	"https://*.edudip.com/webinar/*",
     "storage",
     "debugger"
   ],
